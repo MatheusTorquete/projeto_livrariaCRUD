@@ -10,3 +10,6 @@
 # D - DELETE
 
 ## Neste caso opitei por realizar a inserção de um cadastramento de livros, aonde você coloca o Nome do Livro / Editora do Livro & Valor do Livro.
+
+
+![imagem crud](https://user-images.githubusercontent.com/94683422/187568261-2e1707f9-2ba4-4234-a3dc-41491e6b731f.png)
