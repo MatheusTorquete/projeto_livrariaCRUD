@@ -1,5 +1,7 @@
+/* Importação de fontes do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
 
+/* Reset de estilos */
 * {
   margin: 0;
   padding: 0;
@@ -7,19 +9,22 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* Estilo para o body */
 body {
   width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
+/* Estilo para botões */
 button {
   cursor: pointer;
 }
 
+/* Estilo para o container principal */
 .container {
   width: 90%;
   height: 80%;
@@ -27,6 +32,7 @@ button {
   background: white;
 }
 
+/* Estilo para o cabeçalho */
 .header {
   min-height: 70px;
   display: flex;
@@ -50,21 +56,22 @@ button {
   background-color: rgb(57, 57, 226);
 }
 
+/* Estilo para a tabela */
 .divTable {
   padding: 10px;
-  width: auto; 
-  height:inherit; 
-  overflow:auto;
+  width: auto;
+  height: inherit;
+  overflow: auto;
 }
 
 .divTable::-webkit-scrollbar {
   width: 12px;
-  background-color: whitesmoke; 
+  background-color: whitesmoke;
 }
 
 .divTable::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background-color: darkgray; 
+  background-color: darkgray;
 }
 
 table {
@@ -107,6 +114,7 @@ tbody tr td.acao {
   text-align: center;
 }
 
+/* Estilos responsivos para telas menores */
 @media (max-width: 700px) {
   body {
     font-size: 10px;
@@ -142,6 +150,7 @@ tbody tr td.acao {
   }
 }
 
+/* Estilos para o modal */
 .modal-container {
   width: 100vw;
   height: 100vh;
@@ -173,7 +182,7 @@ tbody tr td.acao {
 .modal input {
   width: 100%;
   outline: none;
-  padding: 5px 10px; 
+  padding: 5px 10px;
   width: 100%;
   margin-bottom: 20px;
   border-top: none;
@@ -185,14 +194,15 @@ tbody tr td.acao {
   width: 100%;
   margin: 10px auto;
   outline: none;
-  border-radius: 20px; 
-  padding: 5px 10px; 
+  border-radius: 20px;
+  padding: 5px 10px;
   width: 100%;
   border: none;
   background-color: rgb(57, 57, 226);
   color: white;
 }
 
+/* Estilos para o modal ativo */
 .active {
   display: flex;
 }
@@ -212,6 +222,7 @@ tbody tr td.acao {
   }
 }
 
+/* Estilos para o botão dentro das células da tabela */
 td button {
   border: none;
   outline: none;
