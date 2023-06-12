@@ -6,26 +6,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CRUD</title>
-  <link rel="stylesheet" href="style.css">
-  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css"> <!-- Importando o arquivo CSS -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'> <!-- Importando os ícones -->
 </head>
 
 <body>
   <div class="container">
     <div class="header">
       <span>Cadastro de Livros</span>
-      <button onclick="openModal()" id="new">Incluir</i></button>
+      <button onclick="openModal()" id="new">Incluir</i></button> <!-- Botão para abrir o modal de inclusão -->
     </div>
 
     <div class="divTable">
       <table>
         <thead>
           <tr>
-            <th>Nome do Livro</th>
-            <th>Editora do Livro</th>
-            <th>Valor do Livro</th>
-            <th class="acao">Editar</th>
-            <th class="acao">Excluir</th>
+            <th>Nome do Livro</th> <!-- Cabeçalho da coluna para o nome do livro -->
+            <th>Editora do Livro</th> <!-- Cabeçalho da coluna para a editora do livro -->
+            <th>Valor do Livro</th> <!-- Cabeçalho da coluna para o valor do livro -->
+            <th class="acao">Editar</th> <!-- Cabeçalho da coluna para a ação de editar -->
+            <th class="acao">Excluir</th> <!-- Cabeçalho da coluna para a ação de excluir -->
           </tr>
         </thead>
         <tbody>
@@ -37,20 +37,20 @@
       <div class="modal">
         <form>
           <label for="m-nome">Nome</label>
-          <input id="m-nome" type="text" required />
+          <input id="m-nome" type="text" required /> <!-- Campo de entrada para o nome do livro -->
   
           <label for="m-editora">Editora</label>
-          <input id="m-editora" type="text" required />
+          <input id="m-editora" type="text" required /> <!-- Campo de entrada para a editora do livro -->
   
           <label for="m-valor">Valor</label>
-          <input id="m-valor" type="number" required />
-          <button id="btnSalvar">Salvar</button>
+          <input id="m-valor" type="number" required /> <!-- Campo de entrada para o valor do livro -->
+          <button id="btnSalvar">Salvar</button> <!-- Botão para salvar o livro no modal -->
         </form>
       </div>
     </div>
 
   </div>
-  <script src="script.js"></script>
+  <script src="script.js"></script> <!-- Importando o arquivo JavaScript -->
 </body>
 
 </html>
